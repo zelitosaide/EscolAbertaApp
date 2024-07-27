@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "escolaberta",
+    "name": "EscolAberta",
     "slug": "escolaberta",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#5271ff"
       },
       "package": "com.escolaberta.escolaberta",
       "versionCode": 3
@@ -42,6 +42,7 @@
       "eas": {
         "projectId": "8abbb427-3fb4-4cb2-972e-70aaac15c2cf"
       }
-    }
+    },
+    "owner": "escolaberta"
   }
 }
