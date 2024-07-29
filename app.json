@@ -22,7 +22,7 @@
         "backgroundColor": "#5271ff"
       },
       "package": "com.escolaberta.escolaberta",
-      "versionCode": 3
+      "versionCode": 5
     },
     "web": {
       "bundler": "metro",

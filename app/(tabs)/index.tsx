@@ -1,6 +1,5 @@
 import { Image, StyleSheet, Platform } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
@@ -17,34 +16,48 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title">Conteúdos de Física</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Mecânica</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
+          <ThemedText>
+            Cinemática: Estudo do movimento sem considerar suas causas. Inclui conceitos de velocidade, aceleração, deslocamento e tempo.
+          </ThemedText>
+          <ThemedText>
+            Dinâmica: Estudo das causas do movimento. Inclui as Leis de Newton:
+            <ThemedText>
+              <ThemedText>Primeira Lei: Lei da Inércia.</ThemedText>
+              <ThemedText>Segunda Lei: F = ma (Força é igual à massa vezes a aceleração).</ThemedText>
+              <ThemedText>Terceira Lei: Ação e reação.</ThemedText>
+            </ThemedText>
+          </ThemedText>
+          <ThemedText>
+            Trabalho e Energia: Trabalho é a força aplicada sobre um objeto ao longo de uma distância. Energia cinética, potencial e conservação da energia.
+          </ThemedText>
+          <ThemedText>
+            Momentum: Produto da massa e velocidade de um objeto. Conservação do momento linear.
+          </ThemedText>
         </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+
+        <ThemedText type="subtitle">Termodinâmica</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          A Termodinâmica envolve o estudo da temperatura e do calor, que são medidas da energia cinética média das partículas e a transferência de energia térmica, respectivamente. As leis da Termodinâmica incluem a conservação da energia, a tendência da entropia de um sistema isolado aumentar, e a definição de entropia zero para um cristal perfeito a zero absoluto.
         </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+
+        <ThemedText type="subtitle">Eletromagnetismo</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          No Eletromagnetismo, estudam-se os campos elétricos e magnéticos gerados por cargas elétricas e correntes. As Leis de Maxwell descrevem o comportamento desses campos, e a análise de circuitos elétricos envolve componentes como resistores, capacitores e indutores.
+        </ThemedText>
+
+        <ThemedText type="subtitle">Óptica</ThemedText>
+        <ThemedText>
+          A Óptica aborda o comportamento da luz, incluindo a reflexão e refração, e fenômenos como a interferência e difração resultantes da natureza ondulatória da luz.
+        </ThemedText>
+
+        <ThemedText type="subtitle">Física Moderna</ThemedText>
+        <ThemedText>
+          Por fim, a Física Moderna inclui a Teoria da Relatividade, que postula que o tempo e o espaço são relativos e descreve a gravidade como curvatura do espaço-tempo, e a Mecânica Quântica, que estuda partículas em escalas atômicas e subatômicas, incorporando princípios de incerteza e a dualidade onda-partícula.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
