@@ -1,20 +1,13 @@
 import data from "@/db/data";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-// export interface Word {
-//   id: number;
-//   word: string;
-//   translation: string;
-//   familiarity: number;
-//   nextReview: Date;
-// }
 export interface Word {
   id: number;
   word: string;
   translation: string;
   familiarity: number;
   nextReview: Date;
-  easy?: boolean;  // Indica se uma palavra foi marcada como fácil
+  difficult?: boolean;  // Indica se uma palavra foi marcada como fácil
 }
 
 export function updateReviewInterval(word: Word, score: number): Word {
@@ -29,11 +22,11 @@ export function updateReviewInterval(word: Word, score: number): Word {
   } else {
     familiarity = Math.max(0, familiarity - 1);
     const nextReview = new Date(now.getTime() + 1 * 24 * 60 * 60 * 1000); // Revisar no próximo dia
-    return { ...word, familiarity, nextReview };
+    return { ...word, familiarity, nextReview, difficult: true };
   }
 }
 
-const STORAGE_KEY = "_words__";
+const STORAGE_KEY = "words";
 
 export async function loadWords(): Promise<Word[]> {
   const storedWords = await AsyncStorage.getItem(STORAGE_KEY);  

@@ -24,6 +24,7 @@ export default function HomeScreen() {
   };
 
   const handleDontKnowWord = () => {
+    // console.log("index", words[currentWordIndex].id)
     const updatedWord = updateReviewInterval(words[currentWordIndex], 0);
     updateWords(updatedWord);
     setShowTranslation(false);
@@ -35,6 +36,8 @@ export default function HomeScreen() {
     saveWords(updatedWords);
     nextWord();
   };
+
+  console.log(currentWordIndex, words.length - 1);
 
   const nextWord = () => {
     if (currentWordIndex < words.length - 1) {
@@ -54,15 +57,14 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <EAButton index="A" title="Reset Words" handlePress={handleReset} />
+
       {words.length > 0 ? (
         <>
           {/* Statistics */}
-          <View style={{ paddingBottom: 100 }}>
-            <EAButton index="A" title="Reset Words" handlePress={handleReset} />
-            <EACard index="B" title={`Total de Palavras aprendidas: ${words[currentWordIndex].id}`} />
-            <EACard index="C" title={`Total de Palavras NÃO aprendidas: ${3000 - words[currentWordIndex].id}`} />
-          </View>
-
+          <EACard index="B" title={`Total de Palavras aprendidas: ${words[currentWordIndex].id}`} />
+          <EACard index="C" title={`Total de Palavras NÃO aprendidas: ${3000 - words[currentWordIndex].id}`} />
+        
           {/* Flashcards */}
           <EACard index={`W${words[currentWordIndex].id}`} title={words[currentWordIndex].word.toUpperCase()} />
           {showTranslation && (
@@ -85,17 +87,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 80,
-    width: '100%',
+    width: "100%",
     paddingHorizontal: 20,
-    backgroundColor: '#fff',
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  statistic: {
-    fontSize: 18,
-    marginVertical: 10,
+    backgroundColor: "#fff",
   },
 });

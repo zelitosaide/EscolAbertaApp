@@ -14,24 +14,80 @@ const words = [
   { "id": 12, "word": "access", "translation": "acesso" },
   { "id": 13, "word": "accident", "translation": "acidente" },
   { "id": 14, "word": "accommodation", "translation": "acomodação" },
-  { "id": 15, "word": "accompany", "translation": "acompanhar" },
+  { 
+    "id": 15, 
+    "word": "accompany", 
+    "translation": "acompanhar",
+    "examples": [
+      "She asked her friend to accompany her to the meeting.",
+      "He wanted someone to accompany him on the trip."
+    ],
+  },
   { "id": 16, "word": "according to", "translation": "de acordo com" },
   { "id": 17, "word": "account", "translation": "conta" },
   { "id": 18, "word": "accurate", "translation": "preciso" },
-  { "id": 19, "word": "accuse", "translation": "acusar" },
+  { 
+    "id": 19, 
+    "word": "accuse", 
+    "translation": "acusar",
+    "examples": [
+      "The lawyer decided to accuse the defendant of theft during the trial.",
+      "She didn't want to accuse him without any evidence."
+    ],
+  },
   { "id": 20, "word": "achieve", "translation": "alcançar" },
   { "id": 21, "word": "achievement", "translation": "realização" },
-  { "id": 22, "word": "acknowledge", "translation": "reconhecer" },
-  { "id": 23, "word": "acquire", "translation": "adquirir" },
+  { 
+    "id": 22, 
+    "word": "acknowledge", 
+    "translation": "reconhecer",
+    "examples": [
+      "She didn't acknowledge his presence when he walked into the room.",
+      "It is important to acknowledge her mistake in order to learn from it."
+    ],
+  },
+  { 
+    "id": 23, 
+    "word": "acquire", 
+    "translation": "adquirir",
+    "examples": [
+      "She hopes to acquire new skills during her internship.",
+      "The company plans to acquire a smaller firm to expand its business."
+    ],
+  },
   { "id": 24, "word": "across", "translation": "através" },
   { "id": 25, "word": "act", "translation": "agir" },
   { "id": 26, "word": "action", "translation": "ação" },
   { "id": 27, "word": "active", "translation": "ativo" },
   { "id": 28, "word": "activity", "translation": "atividade" },
   { "id": 29, "word": "actor", "translation": "ator" },
-  { "id": 30, "word": "actress", "translation": "atriz" },
-  { "id": 31, "word": "actual", "translation": "real" },
-  { "id": 32, "word": "actually", "translation": "na verdade" },
+  { 
+    "id": 30, 
+    "word": "actress", 
+    "translation": "atriz",
+    "examples": [
+      "The actress received an award for her outstanding performance in the film.",
+      "Many young girls dream of becoming an actress one day."
+    ],
+  },
+  { 
+    "id": 31, 
+    "word": "actual", 
+    "translation": "real",
+    "examples": [
+      "The actual cost of the project was much higher than we expected.",
+      "She was surprised to see the actual size of the painting in person."
+    ],
+  },
+  { 
+    "id": 32, 
+    "word": "actually", 
+    "translation": "na verdade",
+    "examples": [
+      "I thought the meeting was canceled, but it's actually still on.",
+      "She actually finished the project ahead of schedule."
+    ],
+  },
   { "id": 33, "word": "ad", "translation": "anúncio" },
   { "id": 34, "word": "adapt", "translation": "adaptar" },
   { "id": 35, "word": "add", "translation": "adicionar" },
@@ -45,24 +101,106 @@ const words = [
   { "id": 43, "word": "adult", "translation": "adulto" },
   { "id": 44, "word": "advance", "translation": "avançar" },
   { "id": 45, "word": "advanced", "translation": "avançado" },
-  { "id": 46, "word": "advantage", "translation": "vantagem" },
-  { "id": 47, "word": "adventure", "translation": "aventura" },
-  { "id": 48, "word": "advertise", "translation": "anunciar." },
+  { 
+    "id": 46, 
+    "word": "advantage", 
+    "translation": "vantagem",
+    "examples": [
+      "Having a strong network can give you an advantage in your career.",
+      "One advantage of studying abroad is the opportunity to learn about different cultures."
+    ],
+  },
+  { 
+    "id": 47, 
+    "word": "adventure", 
+    "translation": "aventura",
+    "examples": [
+      "They went on an adventure to explore the mountains over the weekend.",
+      "Reading can take you on an adventure without leaving your home."
+    ],
+  },
+  { 
+    "id": 48, 
+    "word": "advertise", 
+    "translation": "anunciar.",
+    "examples": [
+      "The company decided to advertise its new product on social media.",
+      "They used various strategies to advertise the upcoming event."
+    ],
+  },
   { "id": 49, "word": "advertisement", "translation": "anúncio." },
-  { "id": 50, "word": "advertising", "translation": "publicidade" },
-  { "id": 51, "word": "advice", "translation": "conselho" },
-  { "id": 52, "word": "advise", "translation": "aconselhar" },
-  { "id": 53, "word": "affair", "translation": "assunto" },
+  { 
+    "id": 50,
+    "word": "advertising",
+    "translation": "publicidade",
+    "examples": [
+      "Effective advertising can significantly increase sales.",
+      "The advertising campaign for the new movie generated a lot of excitement."
+    ],
+  },
+  { 
+    "id": 51, 
+    "word": "advice", 
+    "translation": "conselho",
+    "examples": [
+      "He gave me some good advice on how to improve my presentation.",
+      "I often seek my mentor's advice when making important decisions."
+    ],
+  },
+  { 
+    "id": 52, 
+    "word": "advise", 
+    "translation": "aconselhar",
+    "examples": [
+      "I will advise you on how to improve your presentation.",
+      "She asked her teacher to advise her on which subjects to take next year."
+    ],
+  },
+  { 
+    "id": 53, 
+    "word": "affair", 
+    "translation": "assunto",
+    "examples": [
+      "The government is handling the affair with great care.",
+      "This is a personal affair and does not concern the public.",
+      "The gala was a grand affair that everyone enjoyed.",
+      "She decided to end the affair and focus on her family."
+    ],
+  },
   { "id": 54, "word": "affect", "translation": "afetar" },
-  { "id": 55, "word": "afford", "translation": "poder comprar" },
+  { 
+    "id": 55, 
+    "word": "afford", 
+    "translation": "poder comprar",
+    "examples": [
+      "I can't afford to go on vacation this year.",
+      "They saved for years to afford their dream home."
+    ],
+  },
   { "id": 56, "word": "afraid", "translation": "com medo" },
   { "id": 57, "word": "after", "translation": "depois" },
   { "id": 58, "word": "afternoon", "translation": "tarde" },
-  { "id": 59, "word": "afterwards", "translation": "depois." },
+  { 
+    "id": 59, 
+    "word": "afterwards", 
+    "translation": "depois.",
+    "examples": [
+      "We went out for dinner, and afterwards, we watched a movie.",
+      "She finished her homework and went for a walk afterwards."
+    ],
+  },
   { "id": 60, "word": "again", "translation": "novamente" },
   { "id": 61, "word": "against", "translation": "contra" },
   { "id": 62, "word": "age", "translation": "idade" },
-  { "id": 63, "word": "aged", "translation": "envelhecido" },
+  { 
+    "id": 63, 
+    "word": "aged", 
+    "translation": "envelhecido",
+    "examples": [
+      "The aged cheese had a rich flavor.",
+      "He spent time in the aged care home to help the residents."
+    ],
+  },
   { "id": 64, "word": "agency", "translation": "agência" },
   { "id": 65, "word": "agenda", "translation": "agenda" },
   { "id": 66, "word": "agent", "translation": "agente" },

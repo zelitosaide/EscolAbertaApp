@@ -8,7 +8,7 @@ interface EACardProps {
 export default function EACard({ index, title }: EACardProps) {
   return (
     <View style={styles.card}>
-      <Text style={styles.index}>{index}</Text>
+      {/* <Text style={styles.index}>{index}</Text> */}
       <Text style={styles.title}>{title}</Text>
     </View>
   );

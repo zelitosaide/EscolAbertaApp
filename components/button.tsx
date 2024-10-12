@@ -26,7 +26,7 @@ export default function EAButton({ index, title, handlePress }: EAButtonProps) {
       onPressOut={handlePressOut}
       onPress={handlePress}
     >
-      <Text style={styles.answerNumber}>{index}</Text>
+      {/* <Text style={styles.answerNumber}>{index}</Text> */}
       <Text style={styles.answerChoice}>{title}</Text>
     </TouchableOpacity>
   );
