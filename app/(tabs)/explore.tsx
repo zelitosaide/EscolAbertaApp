@@ -1,24 +1,33 @@
+import EAButton from "@/components/button";
 import EACard from "@/components/card";
-import { Word, loadWords } from "@/utils/spacedRepetition";
+import { Word, loadDifficultWords, resetDifficultWords } from "@/utils/spacedRepetition";
 import { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 
-export default function TabTwoScreen() {
-  const [words, setWords] = useState<Word[]>([]);
+export default function FilteredList() {
+  const [difficultWords, setDifficultWords] = useState<Word[]>([]);
 
   useEffect(() => {
-    const fetchWords = async () => {
-      const loadedWords = await loadWords();
-      setWords(loadedWords.filter(word => word.difficult === true)); // Filtrar palavras marcadas como dificeis
+    const fetchDifficultWords = async () => {
+      const loadedDifficultWords = await loadDifficultWords();
+      setDifficultWords(loadedDifficultWords);
     };
-    fetchWords();
+    fetchDifficultWords();
   });
 
+  // Example button to trigger the reset
+  const handleResetDifficultWords = async () => {
+    await resetDifficultWords(); // Reset the difficult words
+    setDifficultWords([]); // Clear the state as well
+  };
+
   return (
-    <View style={styles.container}>
-      <EACard index="C" title={`Total de Palavras DESCONHECIDAS: ${words.length}`} />
-      {words.length > 0 ? (
-        words.map(w => {
+    <ScrollView style={styles.container}>
+      <EAButton index="A" title="Reset Difficult Words" handlePress={handleResetDifficultWords} />
+
+      <EACard index="C" title={`Total de Palavras DESCONHECIDAS: ${difficultWords.length}`} />
+      {difficultWords.length > 0 ? (
+        difficultWords.map(w => {
           return (
             <View style={{ flexDirection: "row", gap: 5 }} key={w.id}>
               <Text style={{ fontWeight: "900" }}>{w.id} {". "} {w.word.toUpperCase()}</Text>
@@ -27,7 +36,7 @@ export default function TabTwoScreen() {
           );
         })
       ) : null}
-    </View>
+    </ScrollView>
   );
 }
 

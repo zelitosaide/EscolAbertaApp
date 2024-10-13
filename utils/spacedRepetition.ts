@@ -1,6 +1,9 @@
 import data from "@/db/data";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
+const STORAGE_KEY = "words";
+const DIFFICULT_WORDS_KEY = "difficultWords";
+
 export interface Word {
   id: number;
   word: string;
@@ -26,8 +29,6 @@ export function updateReviewInterval(word: Word, score: number): Word {
   }
 }
 
-const STORAGE_KEY = "words";
-
 export async function loadWords(): Promise<Word[]> {
   const storedWords = await AsyncStorage.getItem(STORAGE_KEY);  
   if (storedWords) {
@@ -39,10 +40,26 @@ export async function loadWords(): Promise<Word[]> {
   }
 }
 
+// Load difficult words
+export async function loadDifficultWords(): Promise<Word[]> {
+  const storedDifficultWords = await AsyncStorage.getItem(DIFFICULT_WORDS_KEY);
+  return storedDifficultWords ? JSON.parse(storedDifficultWords) : [];
+}
+
+
 export async function saveWords(words: Word[]): Promise<void> {
   await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(words));
 }
 
 export async function resetWords(): Promise<void> {
   await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+// Reset difficult words (empty the list)
+export async function resetDifficultWords(): Promise<void> {
+  await AsyncStorage.setItem(DIFFICULT_WORDS_KEY, JSON.stringify([])); // Set an empty array
+}
+
+export async function saveDifficultWords(difficultWords: Word[]): Promise<void> {
+  await AsyncStorage.setItem(DIFFICULT_WORDS_KEY, JSON.stringify(difficultWords));
 }

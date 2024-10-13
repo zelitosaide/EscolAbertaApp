@@ -1,8 +1,10 @@
 import EAButton from "@/components/button";
 import EACard from "@/components/card";
-import { Word, loadWords, resetWords, saveWords, updateReviewInterval } from "@/utils/spacedRepetition";
+import { Word, loadDifficultWords, loadWords, resetWords, saveWords, updateReviewInterval, saveDifficultWords } from "@/utils/spacedRepetition";
 import { useEffect, useState } from "react";
-import { Alert, StyleSheet, Text, View } from "react-native";
+import { Alert, ScrollView, StyleSheet, Text } from "react-native";
+
+const TOTAL_WORDS = 3000;
 
 export default function HomeScreen() {
   const [words, setWords] = useState<Word[]>([]);
@@ -24,27 +26,38 @@ export default function HomeScreen() {
   };
 
   const handleDontKnowWord = () => {
-    // console.log("index", words[currentWordIndex].id)
     const updatedWord = updateReviewInterval(words[currentWordIndex], 0);
     updateWords(updatedWord);
     setShowTranslation(false);
   };
 
-  const updateWords = (updatedWord: Word) => {
-    const updatedWords = words.map(word => (word.id === updatedWord.id ? updatedWord : word));
+  // Update both lists (all words and difficult words)
+  const updateWords = async (updatedWord: Word) => {
+    const updatedWords = words.map(word =>
+      word.id === updatedWord.id ? updatedWord : word
+    );
     setWords(updatedWords);
-    saveWords(updatedWords);
-    nextWord();
-  };
+    await saveWords(updatedWords);
 
-  console.log(currentWordIndex, words.length - 1);
+    if (updatedWord.difficult) {
+      let difficultWords = await loadDifficultWords();
+      const isAlreadyDifficult = difficultWords.some(word => word.id === updatedWord.id);
+
+      if (!isAlreadyDifficult) {
+        difficultWords.push(updatedWord);
+        await saveDifficultWords(difficultWords);
+      }
+    }
+
+    nextWord(); // Move to the next word
+  };
 
   const nextWord = () => {
     if (currentWordIndex < words.length - 1) {
       setCurrentWordIndex(currentWordIndex + 1);
     } else {
       Alert.alert("Fim das palavras para revisar!");
-      setCurrentWordIndex(0);
+      // setCurrentWordIndex(0);
     }
   };
 
@@ -56,14 +69,14 @@ export default function HomeScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <EAButton index="A" title="Reset Words" handlePress={handleReset} />
 
       {words.length > 0 ? (
         <>
           {/* Statistics */}
-          <EACard index="B" title={`Total de Palavras aprendidas: ${words[currentWordIndex].id}`} />
-          <EACard index="C" title={`Total de Palavras NÃO aprendidas: ${3000 - words[currentWordIndex].id}`} />
+          <EACard index="B" title={`Total de Palavras aprendidas: ${currentWordIndex < words.length - 1 ? words[currentWordIndex].id : TOTAL_WORDS}`} />
+          <EACard index="C" title={`Total de Palavras NÃO aprendidas: ${currentWordIndex < words.length - 1 ? TOTAL_WORDS - words[currentWordIndex].id : 0}`} />
         
           {/* Flashcards */}
           <EACard index={`W${words[currentWordIndex].id}`} title={words[currentWordIndex].word.toUpperCase()} />
@@ -77,9 +90,9 @@ export default function HomeScreen() {
           <EAButton index={3} title="Não conheço" handlePress={handleDontKnowWord} />
         </>
       ) : (
-        <Text>Loading...</Text>
+        <Text style={{ textAlign: "center" }}>RESET THE WORDS</Text>
       )}
-    </View>
+    </ScrollView>
   );
 }
 
