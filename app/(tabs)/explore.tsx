@@ -23,7 +23,9 @@ export default function FilteredList() {
 
   return (
     <ScrollView style={styles.container}>
-      <EAButton index="A" title="Reset Difficult Words" handlePress={handleResetDifficultWords} />
+      <View style={{ paddingTop: 80 }}>
+        <EAButton index="A" title="Reiniciar palavras difíceis" handlePress={handleResetDifficultWords} />
+      </View>
 
       <EACard index="C" title={`Total de Palavras DESCONHECIDAS: ${difficultWords.length}`} />
       {difficultWords.length > 0 ? (
@@ -31,7 +33,7 @@ export default function FilteredList() {
           return (
             <View style={{ flexDirection: "row", gap: 5 }} key={w.id}>
               <Text style={{ fontWeight: "900" }}>{w.id} {". "} {w.word.toUpperCase()}</Text>
-              <Text>({w.translation})</Text>
+              <Text>({w.translation}) {w.examples && "😎"}</Text>
             </View>
           );
         })
@@ -43,7 +45,6 @@ export default function FilteredList() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 80,
     width: "100%",
     paddingHorizontal: 20,
     backgroundColor: "#fff",

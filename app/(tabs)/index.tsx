@@ -2,7 +2,7 @@ import EAButton from "@/components/button";
 import EACard from "@/components/card";
 import { Word, loadDifficultWords, loadWords, resetWords, saveWords, updateReviewInterval, saveDifficultWords } from "@/utils/spacedRepetition";
 import { useEffect, useState } from "react";
-import { Alert, ScrollView, StyleSheet, Text } from "react-native";
+import { Alert, ScrollView, StyleSheet, Text, View } from "react-native";
 
 const TOTAL_WORDS = 3000;
 
@@ -70,7 +70,9 @@ export default function HomeScreen() {
 
   return (
     <ScrollView style={styles.container}>
-      <EAButton index="A" title="Reset Words" handlePress={handleReset} />
+      <View style={{ paddingTop: 80 }}>
+        <EAButton index="A" title="Reiniciar palavras" handlePress={handleReset} />
+      </View>
 
       {words.length > 0 ? (
         <>
@@ -88,6 +90,7 @@ export default function HomeScreen() {
           <EAButton index={1} title="Mostrar tradução" handlePress={() => setShowTranslation(true)} />
           <EAButton index={2} title="Conheço" handlePress={handleKnowWord} />
           <EAButton index={3} title="Não conheço" handlePress={handleDontKnowWord} />
+
         </>
       ) : (
         <Text style={{ textAlign: "center" }}>RESET THE WORDS</Text>
@@ -99,7 +102,6 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 80,
     width: "100%",
     paddingHorizontal: 20,
     backgroundColor: "#fff",

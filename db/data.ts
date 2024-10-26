@@ -210,11 +210,41 @@ const words = [
   { "id": 70, "word": "agreement", "translation": "acordo" },
   { "id": 71, "word": "ah", "translation": "ah" },
   { "id": 72, "word": "ahead", "translation": "à frente" },
-  { "id": 73, "word": "aid", "translation": "ajuda" },
-  { "id": 74, "word": "aim", "translation": "alvo" },
+  { 
+    "id": 73, 
+    "word": "aid", 
+    "translation": "ajuda",
+    "examples": [
+      "Many organizations offer aid to communities affected by natural disasters."
+    ],
+  },
+  { 
+    "id": 74, 
+    "word": "aim", 
+    "translation": "alvo",
+    "examples": [
+      "My aim is to improve my English skills by practicing every day."
+    ],
+  },
   { "id": 75, "word": "air", "translation": "ar" },
-  { "id": 76, "word": "aircraft", "translation": "aeronave" },
-  { "id": 77, "word": "airline", "translation": "companhia aérea" },
+  { 
+    "id": 76, 
+    "word": "aircraft", 
+    "translation": "aeronave",
+    "examples": [
+      "The aircraft soared high above the clouds during its flight.",
+      "Many different types of aircraft are used for both commercial and military purposes."
+    ],
+  },
+  { 
+    "id": 77, 
+    "word": "airline",
+    "translation": "companhia aérea",
+    "examples": [
+      "The airline offers discounts for students traveling internationally.",
+      "Many people prefer the same airline for their frequent flights because of its excellent service."
+    ],
+  },
   { "id": 78, "word": "airport", "translation": "aeroporto" },
   { "id": 79, "word": "alarm", "translation": "alarme" },
   { "id": 80, "word": "album", "translation": "álbum" },
@@ -226,38 +256,191 @@ const words = [
   { "id": 86, "word": "allow", "translation": "permitir" },
   { "id": 87, "word": "almost", "translation": "quase" },
   { "id": 88, "word": "alone", "translation": "sozinho" },
-  { "id": 89, "word": "along", "translation": "ao longo" },
+  { 
+    "id": 89, 
+    "word": "along", 
+    "translation": "ao longo",
+    "examples": [
+      "We walked along the beach, enjoying the sound of the waves.",
+      "The road stretches along the coast.",
+      "She brought her dog along with her to the park."
+    ],
+  },
   { "id": 90, "word": "already", "translation": "já" },
   { "id": 91, "word": "also", "translation": "também." },
-  { "id": 92, "word": "alter", "translation": "alterar" },
-  { "id": 93, "word": "alternative", "translation": "alternativa" },
+  { 
+    "id": 92, 
+    "word": "alter", 
+    "translation": "alterar",
+    "examples": [
+      "The designer decided to alter the dress to fit the client's measurements.",
+      "You can alter the settings on your phone to improve battery life."
+    ],
+  },
+  { 
+    "id": 93, 
+    "word": "alternative",
+    "translation": "alternativa",
+    "examples": [
+      "If you don't like coffee, tea is a great alternative.",
+      "They are looking for alternative solutions to reduce energy consumption."
+    ],
+  },
   { "id": 94, "word": "although", "translation": "embora" },
   { "id": 95, "word": "always", "translation": "sempre" },
-  { "id": 96, "word": "amazed", "translation": "surpreso" },
-  { "id": 97, "word": "amazing", "translation": "incrível" },
-  { "id": 98, "word": "ambition", "translation": "ambição" },
-  { "id": 99, "word": "ambitious", "translation": "ambicioso" },
-  { "id": 100, "word": "among", "translation": "entre" },
+  { 
+    "id": 96, 
+    "word": "amazed", 
+    "translation": "surpreso",
+    "examples": [
+      "I was amazed by the beautiful sunset over the mountains.",
+      "She was amazed to see how much her garden had grown in just a few weeks."
+    ],
+  },
+  { 
+    "id": 97, 
+    "word": "amazing", 
+    "translation": "incrível",
+    "examples": [
+      "The magician performed an amazing trick that left the audience in awe.",
+      "It's amazing how quickly technology is advancing these days."
+    ],
+  },
+  { 
+    "id": 98, 
+    "word": "ambition", 
+    "translation": "ambição",
+    "examples": [
+      "Her ambition to become a doctor motivated her to study hard in school.",
+      "He has a strong ambition to start his own business one day."
+    ],
+  },
+  { 
+    "id": 99, 
+    "word": "ambitious", 
+    "translation": "ambicioso",
+    "examples": [
+      "She is very ambitious and always sets high goals for herself.",
+      "His ambitious plans for the future include traveling the world and starting a charity."
+    ],
+  },
+  { 
+    "id": 100, 
+    "word": "among", 
+    "translation": "entre",
+    "examples": [
+      "She was among the top students in her class.",
+      "There was a sense of excitement among the crowd as the concert began."
+    ]
+  },
   { "id": 101, "word": "amount", "translation": "quantidade" },
-  { "id": 102, "word": "analyse", "translation": "analisar" },
-  { "id": 103, "word": "analysis", "translation": "análise" },
+  { 
+    "id": 102, 
+    "word": "analyse", 
+    "translation": "analisar",
+    "examples": [
+      "The researcher will analyze the results to determine the effectiveness of the new drug.",
+      "It is important to analyze your spending habits to create a better budget."
+    ],
+  },
+  { 
+    "id": 103, 
+    "word": "analysis", 
+    "translation": "análise",
+    "examples": [
+      "The scientists conducted a detailed analysis of the data collected from the experiment.",
+      "Her analysis of the market trends helped the company make informed decisions."
+    ],
+  },
   { "id": 104, "word": "ancient", "translation": "antigo" },
   { "id": 105, "word": "and", "translation": "e" },
-  { "id": 106, "word": "anger", "translation": "raiva" },
+  { 
+    "id": 106, 
+    "word": "anger", 
+    "translation": "raiva",
+    "examples": [
+      "He felt a surge of anger when he heard the unfair comments about his work.",
+      "It is important to find healthy ways to express your anger instead of letting it build up."
+    ],
+  },
   { "id": 107, "word": "angle", "translation": "ângulo" },
   { "id": 108, "word": "angry", "translation": "irritado" },
   { "id": 109, "word": "animal", "translation": "animal" },
-  { "id": 110, "word": "ankle", "translation": "tornozelo" },
-  { "id": 111, "word": "anniversary", "translation": "aniversário" },
-  { "id": 112, "word": "announce", "translation": "anunciar" },
-  { "id": 113, "word": "announcement", "translation": "anúncio.." },
-  { "id": 114, "word": "annoy", "translation": "irritar" },
-  { "id": 115, "word": "annoyed", "translation": "irritado." },
-  { "id": 116, "word": "annoying", "translation": "irritante" },
+  { 
+    "id": 110, 
+    "word": "ankle", 
+    "translation": "tornozelo",
+    "examples": [
+      "He sprained his ankle while playing basketball and had to rest for a few weeks.",
+      "She wore a beautiful bracelet around her ankle during the summer festival."
+    ],
+  },
+  { 
+    "id": 111, 
+    "word": "anniversary", 
+    "translation": "aniversário",
+    "examples": [
+      "They celebrated their wedding anniversary with a romantic dinner at their favorite restaurant.",
+      "Every year, the town holds a festival to mark the anniversary of its founding."
+    ],
+  },
+  { 
+    "id": 112, 
+    "word": "announce", 
+    "translation": "anunciar",
+    "examples": [
+      "The principal will announce the winner of the science fair during the assembly.",
+      "They decided to announce their engagement at the family gathering."
+    ],
+  },
+  { 
+    "id": 113, 
+    "word": "announcement", 
+    "translation": "anúncio..",
+    "examples": [
+      "The company made an announcement about the new product launch during the press conference.",
+      "The announcement of the upcoming concert excited all the fans in the audience."
+    ],
+  },
+  { 
+    "id": 114, 
+    "word": "annoy", 
+    "translation": "irritar",
+    "examples": [
+      "His habit of tapping his pencil on the desk tends to annoy his classmates.",
+      "I try not to annoy my neighbors with loud music late at night."
+    ],
+  },
+  { 
+    "id": 115, 
+    "word": "annoyed", 
+    "translation": "irritado.",
+    "examples": [
+      "She was annoyed by the constant interruptions during her presentation.",
+      "I felt annoyed when I realized I had forgotten my keys at home."
+    ],
+  },
+  { 
+    "id": 116, 
+    "word": "annoying", 
+    "translation": "irritante",
+    "examples": [
+      "The constant noise from the construction site was very annoying while I was trying to study.",
+      "It can be annoying when people interrupt you while you are speaking."
+    ],
+  },
   { "id": 117, "word": "annual", "translation": "anual" },
   { "id": 118, "word": "another", "translation": "outro" },
   { "id": 119, "word": "answer", "translation": "resposta" },
-  { "id": 120, "word": "anxious", "translation": "ansioso" },
+  { 
+    "id": 120, 
+    "word": "anxious", 
+    "translation": "ansioso",
+    "examples": [
+      "She felt anxious about the upcoming exam and studied late into the night.",
+      "Many people are anxious when speaking in public for the first time."
+    ],
+  },
   { "id": 121, "word": "any", "translation": "qualquer" },
   { "id": 122, "word": "anybody", "translation": "qualquer um" },
   { "id": 123, "word": "any more", "translation": "mais" },
@@ -265,37 +448,192 @@ const words = [
   { "id": 125, "word": "anything", "translation": "qualquer coisa" },
   { "id": 126, "word": "anyway", "translation": "de qualquer forma" },
   { "id": 127, "word": "anywhere", "translation": "em qualquer lugar" },
-  { "id": 128, "word": "apart", "translation": "separado" },
+  { 
+    "id": 128, 
+    "word": "apart", 
+    "translation": "separado",
+    "examples": [
+      "The two friends were separated and lived hundreds of miles apart for many years.",
+      "It is important to keep the ingredients apart while baking to avoid any cross-contamination."
+    ],
+  },
   { "id": 129, "word": "apartment", "translation": "apartamento" },
   { "id": 130, "word": "apologize", "translation": "pedir desculpas" },
   { "id": 131, "word": "app", "translation": "aplicativo" },
-  { "id": 132, "word": "apparent", "translation": "aparente" },
-  { "id": 133, "word": "apparently", "translation": "aparentemente" },
-  { "id": 134, "word": "appeal", "translation": "apelo" },
-  { "id": 135, "word": "appear", "translation": "aparecer" },
-  { "id": 136, "word": "appearance", "translation": "aparência" },
+  { 
+    "id": 132, 
+    "word": "apparent", 
+    "translation": "aparente",
+    "examples": [
+      "It is apparent that she has worked hard to improve her skills.",
+      "The damage to the car was apparent after the accident."
+    ],
+  },
+  { 
+    "id": 133, 
+    "word": "apparently", 
+    "translation": "aparentemente",
+    "examples": [
+      "Apparently, it's going to rain tomorrow, so don't forget your umbrella.",
+      "She was apparently unaware of the changes made to the schedule."
+    ],
+  },
+  { 
+    "id": 134, 
+    "word": "appeal", 
+    "translation": "apelo",
+    "examples": [
+      "Many people feel a strong appeal for traveling to new places and experiencing different cultures.",
+      "The charity made an emotional appeal for donations to help those in need."
+    ],
+  },
+  { 
+    "id": 135, 
+    "word": "appear", 
+    "translation": "aparecer",
+    "examples": [
+      "The stars begin to appear in the night sky as the sun sets.",
+      "She tried to appear confident during her presentation, even though she was nervous."
+    ],
+  },
+  { 
+    "id": 136, 
+    "word": "appearance", 
+    "translation": "aparência",
+    "examples": [
+      "Her appearance at the event surprised everyone, as she had been absent for so long.",
+      "The appearance of the new restaurant in town has attracted many customers."
+    ],
+  },
   { "id": 137, "word": "apple", "translation": "maçã" },
   { "id": 138, "word": "application", "translation": "aplicação" },
   { "id": 139, "word": "apply", "translation": "aplicar" },
-  { "id": 140, "word": "appointment", "translation": "compromisso" },
+  { 
+    "id": 140, 
+    "word": "appointment", 
+    "translation": "compromisso",
+    "examples": [
+      "She made an appointment with the dentist for next Tuesday.",
+      "He missed his appointment because he got stuck in traffic.",
+      "It is important to be on time for a job interview or any professional appointment."
+    ],
+  },
   { "id": 141, "word": "appreciate", "translation": "apreciar" },
-  { "id": 142, "word": "approach", "translation": "abordagem" },
-  { "id": 143, "word": "appropriate", "translation": "apropriado." },
-  { "id": 144, "word": "approval", "translation": "aprovação" },
-  { "id": 145, "word": "approve", "translation": "aprovar" },
+  { 
+    "id": 142, 
+    "word": "approach", 
+    "translation": "abordagem",
+    "examples": [
+      "We need to take a different approach to solve this problem.",
+      "Her approach to learning is very effective.",
+      "As we approach the deadline, we must work harder."
+    ],
+  },
+  { 
+    "id": 143, 
+    "word": "appropriate", 
+    "translation": "apropriado.",
+    "examples": [
+      "It is important to wear appropriate clothing for a job interview.",
+      "The teacher suggested using appropriate language when speaking to others.",
+      "The committee found his comments to be inappropriate for the occasion."
+    ],
+  },
+  { 
+    "id": 144, 
+    "word": "approval", 
+    "translation": "aprovação",
+    "examples": [
+      "The project received approval from the board of directors before moving forward.",
+      "She was excited to get her parents' approval for her travel plans.",
+      "Without the necessary approvals, the construction work cannot begin."
+    ],
+  },
+  { 
+    "id": 145, 
+    "word": "approve", 
+    "translation": "aprovar",
+    "examples": [
+      "The committee decided to approve the new budget for the project.",
+      "She was relieved when her boss agreed to approve her vacation request.",
+      "It is important for the manager to approve all significant changes in the plan."
+    ],
+  },
   { "id": 146, "word": "approximately", "translation": "aproximadamente" },
   { "id": 147, "word": "April", "translation": "abril" },
   { "id": 148, "word": "architect", "translation": "arquiteto" },
   { "id": 149, "word": "architecture", "translation": "arquitetura" },
   { "id": 150, "word": "area", "translation": "área" },
-  { "id": 151, "word": "argue", "translation": "discutir" },
+  { 
+    "id": 151, 
+    "word": "argue", 
+    "translation": "discutir",
+    "examples": [
+      "People often argue about politics during family gatherings.",
+      "It is important to know how to argue your points respectfully in a debate.",
+      "They didn't want to argue over something so trivial."
+    ],
+  },
   { "id": 152, "word": "argument", "translation": "argumento" },
-  { "id": 153, "word": "arise", "translation": "surgir" },
-  { "id": 154, "word": "arm", "translation": "braço" },
-  { "id": 155, "word": "armed", "translation": "armado" },
-  { "id": 156, "word": "arms", "translation": "armas" },
-  { "id": 157, "word": "army", "translation": "exército" },
-  { "id": 158, "word": "around", "translation": "ao redor" },
+  { 
+    "id": 153, 
+    "word": "arise", 
+    "translation": "surgir",
+    "examples": [
+      "Problems can arise if we don't communicate clearly.",
+      "Opportunities often arise when we least expect them."
+    ],
+  },
+  { 
+    "id": 154, 
+    "word": "arm", 
+    "translation": "braço",
+    "examples": [
+      "He raised his arm to signal for help.",
+      "The soldier carried an arm full of supplies.",
+      "She decided to arm herself with knowledge before the presentation."
+    ],
+  },
+  { 
+    "id": 155, 
+    "word": "armed", 
+    "translation": "armado",
+    "examples": [
+      "The police were armed with the latest equipment to handle the situation.",
+      "The soldiers were armed and ready for deployment.",
+      "She felt more confident and armed with knowledge after attending the workshop."
+    ],
+  },
+  { 
+    "id": 156, 
+    "word": "arms", 
+    "translation": "armas",
+    "examples": [
+      "The soldiers were equipped with advanced arms for the mission.",
+      "In many countries, citizens have the right to bear arms for self-defense.",
+      "The treaty aimed to limit the number of arms available to various factions."
+    ],
+  },
+  { 
+    "id": 157, 
+    "word": "army", 
+    "translation": "exército",
+    "examples": [
+      "An army is trained to protect the country from threats.",
+      "The army organized a large-scale exercise to improve their strategies.",
+      "Many people in the community support veterans from the army."
+    ],
+  },
+  { 
+    "id": 158, 
+    "word": "around", 
+    "translation": "ao redor",
+    "examples": [
+      "The children played around the park, enjoying the fresh air.",
+      "She looked around the room to see if anyone needed help.",
+      "We need to find a way to get around the traffic jam."
+    ],
+  },
   { "id": 159, "word": "arrange", "translation": "arranjar" },
   { "id": 160, "word": "arrangement", "translation": "arranjo" },
   { "id": 161, "word": "arrest", "translation": "prender" },

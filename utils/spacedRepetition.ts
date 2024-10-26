@@ -11,6 +11,7 @@ export interface Word {
   familiarity: number;
   nextReview: Date;
   difficult?: boolean;  // Indica se uma palavra foi marcada como fácil
+  examples?: string[];
 }
 
 export function updateReviewInterval(word: Word, score: number): Word {
