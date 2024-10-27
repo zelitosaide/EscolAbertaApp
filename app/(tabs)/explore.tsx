@@ -32,7 +32,7 @@ export default function FilteredList() {
         difficultWords.map(w => {
           return (
             <View style={{ flexDirection: "row", gap: 5 }} key={w.id}>
-              <Text style={{ fontWeight: "900" }}>{w.id} {". "} {w.word.toUpperCase()}</Text>
+              <Text style={{ fontWeight: "900" }}>{w.id}{". "}{w.word.toUpperCase()}</Text>
               <Text>({w.translation}) {w.examples && "😎"}</Text>
             </View>
           );

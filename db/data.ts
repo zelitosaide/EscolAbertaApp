@@ -634,18 +634,108 @@ const words = [
       "We need to find a way to get around the traffic jam."
     ],
   },
-  { "id": 159, "word": "arrange", "translation": "arranjar" },
-  { "id": 160, "word": "arrangement", "translation": "arranjo" },
-  { "id": 161, "word": "arrest", "translation": "prender" },
-  { "id": 162, "word": "arrival", "translation": "chegada" },
-  { "id": 163, "word": "arrive", "translation": "chegar" },
+  { 
+    "id": 159, 
+    "word": "arrange", 
+    "translation": "arranjar",
+    "examples": [
+      "She decided to arrange a surprise party for her friend's birthday to make it a memorable occasion.",
+      "The teacher asked the students to arrange the desks in a circle for the group discussion.",
+      "He needs to arrange his schedule to accommodate the new project deadlines at work."
+    ],
+  },
+  { 
+    "id": 160, 
+    "word": "arrangement", 
+    "translation": "arranjo",
+    "examples": [
+      "The couple made all the necessary arrangements for their wedding, including booking the venue and selecting the menu.",
+      "The furniture arrangement in the living room created a cozy and inviting atmosphere.",
+      "She coordinated travel arrangements for her business trip, including flights, hotels, and car rentals."
+    ],
+  },
+  { 
+    "id": 161, 
+    "word": "arrest", 
+    "translation": "prender",
+    "examples": [
+      "The police decided to arrest the suspect after gathering enough evidence against him.",
+      "The sudden arrest of the politician surprised everyone and sparked widespread protests.",
+      "The officer explained that the arrest was necessary to ensure public safety during the investigation."
+    ],
+  },
+  { 
+    "id": 162, 
+    "word": "arrival", 
+    "translation": "chegada",
+    "examples": [
+      "The arrival of the train was delayed due to bad weather, causing passengers to wait longer at the station.",
+      "We eagerly awaited the arrival of our guests for the dinner party, making sure everything was perfect for their visit.",
+      "The arrival of spring brought blooming flowers and warmer temperatures, lifting everyone's spirits after the long winter."
+    ],
+  },
+  { 
+    "id": 163, 
+    "word": "arrive", 
+    "translation": "chegar",
+    "examples": [
+      "We hoped to arrive at the airport on time to catch our flights.",
+      "They were excited to arrive at their vacation destination after a long journey.",
+      "The guests began to arrive early for the party, bringing gifts and snacks."
+    ],
+  },
   { "id": 164, "word": "art", "translation": "arte" },
-  { "id": 165, "word": "article", "translation": "artigo" },
-  { "id": 166, "word": "artificial", "translation": "artificial" },
-  { "id": 167, "word": "artist", "translation": "artista" },
-  { "id": 168, "word": "artistic", "translation": "artístico" },
+  { 
+    "id": 165, 
+    "word": "article", 
+    "translation": "artigo",
+    "examples": [
+      "The article in the newspaper discussed the impact of climate change on local wildlife.",
+      "She wrote an article for her school magazine about the importance of recycling.",
+      "The professor assigned an article for the students to read before the next class discussion."
+    ],
+  },
+  { 
+    "id": 166, 
+    "word": "artificial", 
+    "translation": "artificial",
+    "examples": [
+      "The researchers developed an artificial intelligence system to help analyze large data sets quickly.",
+      "Many people prefer to buy artificial flowers because they require less maintenance than real ones.",
+      "The chef used artificial ingredients to enhance the taste of the dish, making it more appealing to diners."
+    ],
+  },
+  { 
+    "id": 167, 
+    "word": "artist", 
+    "translation": "artista",
+    "examples": [
+      "The artist spent months creating a mural that brightened up the entire community center.",
+      "She admired the artist's ability to capture emotion through his paintings.",
+      "The gallery hosted an exhibition to showcase the work of local artists."
+    ],
+  },
+  { 
+    "id": 168, 
+    "word": "artistic",
+    "translation": "artístico",
+    "examples": [
+      "Her artistic talent was evident in the beautiful paintings she created for the gallery.",
+      "The festival featured various artistic performances, including music, dancing, and theater.",
+      "He has an artistic vision that allows him to see beauty in everyday objects."
+    ],
+  },
   { "id": 169, "word": "as", "translation": "como" },
-  { "id": 170, "word": "ashamed", "translation": "envergonhado" },
+  { 
+    "id": 170, 
+    "word": "ashamed", 
+    "translation": "envergonhado",
+    "examples": [
+      "She felt ashamed for not studying harder for the exam and letting her parents down.",
+      "He was ashamed of his actions and apologized to his friends for being rude.",
+      "They were ashamed to admit that they didn't know how to cook a simple meal."
+    ],
+  },
   { "id": 171, "word": "ask", "translation": "perguntar" },
   { "id": 172, "word": "asleep", "translation": "dormindo" },
   { "id": 173, "word": "aspect", "translation": "aspecto" },
