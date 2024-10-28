@@ -80,8 +80,8 @@ export default function HomeScreen() {
           <EACard index="B" title={`Total de Palavras aprendidas: ${currentWordIndex < words.length - 1 ? words[currentWordIndex].id : TOTAL_WORDS}`} />
           <EACard index="C" title={`Total de Palavras NÃO aprendidas: ${currentWordIndex < words.length - 1 ? TOTAL_WORDS - words[currentWordIndex].id : 0}`} />
         
-          {/* Flashcards */}
-          <EACard index={`W${words[currentWordIndex].id}`} title={words[currentWordIndex].word.toUpperCase()} />
+          {/* Flashcards {w.examples && "😎"} */}
+          <EACard index={`W${words[currentWordIndex].id}`} title={words[currentWordIndex].examples ? words[currentWordIndex].word.toUpperCase() + "😎" : words[currentWordIndex].word.toUpperCase()} />
           {showTranslation && (
             <EACard index={`T${words[currentWordIndex].id}`} title={words[currentWordIndex].translation.toUpperCase()} />
           )}

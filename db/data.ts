@@ -737,16 +737,106 @@ const words = [
     ],
   },
   { "id": 171, "word": "ask", "translation": "perguntar" },
-  { "id": 172, "word": "asleep", "translation": "dormindo" },
-  { "id": 173, "word": "aspect", "translation": "aspecto" },
-  { "id": 174, "word": "assess", "translation": "avaliar" },
-  { "id": 175, "word": "assessment", "translation": "avaliação" },
-  { "id": 176, "word": "assignment", "translation": "tarefa" },
-  { "id": 177, "word": "assist", "translation": "assistir" },
-  { "id": 178, "word": "assistant", "translation": "assistente" },
-  { "id": 179, "word": "associate", "translation": "associar" },
-  { "id": 180, "word": "associated", "translation": "associado" },
-  { "id": 181, "word": "association", "translation": "associação" },
+  { 
+    "id": 172, 
+    "word": "asleep", 
+    "translation": "dormindo",
+    "examples": [
+      "She fell asleep quickly after a long day at work.",
+      "The baby was fast asleep in her crib, looking peaceful.",
+      "He stayed awake all night but finally went asleep just before sunrise."
+    ],
+  },
+  { 
+    "id": 173, 
+    "word": "aspect", 
+    "translation": "aspecto",
+    "examples": [
+      "One important aspect of a healthy diet is eating a variety of fruits and vegetables.",
+      "The documentary explored the cultural aspects of life in different countries.",
+      "She focused on the financial aspect of the project before making any decisions."
+    ],
+  },
+  { 
+    "id": 174, 
+    "word": "assess", 
+    "translation": "avaliar",
+    "examples": [
+      "The teacher will assess the student's understanding through a quiz at the end of the lesson.",
+      "The team gathered data to assess the effectiveness of their marketing campaign.",
+      "After the storm, the homeowners had to assess the damage to their property before starting repairs."
+    ],
+  },
+  { 
+    "id": 175, 
+    "word": "assessment", 
+    "translation": "avaliação",
+    "examples": [
+      "The teacher gave a detailed assessment of the students' progress throughout the semester.",
+      "The campaign conducted a risk assessment to identify potential hazards in the workplace.",
+      "After the assessment, the committee decided to implement new strategies for improvement."
+    ],
+  },
+  { 
+    "id": 176, 
+    "word": "assignment", 
+    "translation": "tarefa",
+    "examples": [
+      "The teacher gave the students a challenging assignment that required critical thinking skills.",
+      "She spent the weekend working on her assignment to ensure it was completed on time.",
+      "The group project was a team assignment, and everyone contributed equally to succeed."
+    ],
+  },
+  { 
+    "id": 177, 
+    "word": "assist", 
+    "translation": "assistir",
+    "examples": [
+      "The volunteers were there to assist the elderly residents with their grocery shopping.",
+      "She hired a tutor to assist her with her homework.",
+      "The software is designed to assist users in organizing their schedules efficiently."
+    ],
+  },
+  { 
+    "id": 178, 
+    "word": "assistant", 
+    "translation": "assistente",
+    "examples": [
+      "The assistant helped the manager organize the files and prepare for the meeting.",
+      "She worked as an administrative assistant for five years before pursuing her career in marketing.",
+      "The research assistant conducted experiments and recorded data for the professor's study."
+    ],
+  },
+  { 
+    "id": 179, 
+    "word": "associate", 
+    "translation": "associar",
+    "examples": [
+      "He decided to associate himself with a group of local artists to learn more about painting techniques.",
+      "She didn't want to associate with people who didn't share her values in her job.",
+      "He often had to associate different pieces of data to find patterns."
+    ],
+  },
+  { 
+    "id": 180, 
+    "word": "associated", 
+    "translation": "associado",
+    "examples": [
+      "There are several risks associated with starting a new business.",
+      "The symptoms she experienced were associated with a lack of sleep and high stress.",
+      "He became associated with the company after working with them on multiple projects."
+    ],
+  },
+  { 
+    "id": 181, 
+    "word": "association", 
+    "translation": "associação",
+    "examples": [
+      "She joined a local art association to connect with other artists in her area.",
+      "There is a strong association between regular exercise and improved mental health.",
+      "The community center organized an association for local businesses to work together."
+    ],
+  },
   { "id": 182, "word": "assume", "translation": "assumir" },
   { "id": 183, "word": "at", "translation": "em" },
   { "id": 184, "word": "athlete", "translation": "atleta" },

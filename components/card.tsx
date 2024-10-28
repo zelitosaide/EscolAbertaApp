@@ -5,7 +5,7 @@ interface EACardProps {
   title: string;
 }
 
-export default function EACard({ index, title }: EACardProps) {
+export default function EACard({ index, title }: EACardProps) {  
   return (
     <View style={styles.card}>
       {/* <Text style={styles.index}>{index}</Text> */}
