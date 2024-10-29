@@ -837,17 +837,107 @@ const words = [
       "The community center organized an association for local businesses to work together."
     ],
   },
-  { "id": 182, "word": "assume", "translation": "assumir" },
+  { 
+    "id": 182, 
+    "word": "assume", 
+    "translation": "assumir",
+    "examples": [
+      "We can't assume everyone knows the rules for the game.",
+      "Don't assume that all the team members agree with the plan.",
+      "Assume you have already completed your homework."
+    ],
+  },
   { "id": 183, "word": "at", "translation": "em" },
-  { "id": 184, "word": "athlete", "translation": "atleta" },
-  { "id": 185, "word": "atmosphere", "translation": "atmosfera" },
-  { "id": 186, "word": "attach", "translation": "anexar" },
-  { "id": 187, "word": "attack", "translation": "ataque" },
-  { "id": 188, "word": "attempt", "translation": "tentar" },
-  { "id": 189, "word": "attend", "translation": "atender" },
-  { "id": 190, "word": "attention", "translation": "atenção" },
-  { "id": 191, "word": "attitude", "translation": "atitude" },
-  { "id": 192, "word": "attract", "translation": "atrair" },
+  { 
+    "id": 184, 
+    "word": "athlete", 
+    "translation": "atleta",
+    "examples": [
+      "The athlete trained hard every day to prepare for the upcoming competition.",
+      "She was recognized as one of the best athletes in her school after winning several championships.",
+      "Many athletes follow a strict diet to maintain their performance levels."
+    ],
+  },
+  { 
+    "id": 185, 
+    "word": "atmosphere", 
+    "translation": "atmosfera",
+    "examples": [
+      "The cozy atmosphere of the cafe made it a great place to relax.",
+      "The atmosphere at the concert was electric, filled with excitement and energy.",
+      "Scientists studied the Earth's atmosphere to understand climate change and weather patterns."
+    ],
+  },
+  { 
+    "id": 186, 
+    "word": "attach", 
+    "translation": "anexar",
+    "examples": [
+      "You need to attach the document to your email before sending it.",
+      "Please attach your photo to the application form.",
+      "I will attach the label to the package so it gets to the right address."
+    ],
+  },
+  { 
+    "id": 187, 
+    "word": "attack", 
+    "translation": "ataque",
+    "examples": [
+      "The army launched an attack on the army's base at dawn.",
+      "She felt the need to attack the problem from a different angle to find the solution.",
+      "The dog began to bark when it sensed an intruder ready to attack."
+    ],
+  },
+  { 
+    "id": 188, 
+    "word": "attempt", 
+    "translation": "tentar",
+    "examples": [
+      "She made an attempt to climb the mountain, but the weather conditions were too dangerous.",
+      "His first attempt at baking a cake was a little messy, but it tasted good.",
+      "They decided to make another attempt to reach the summit after resting for a while."
+    ],
+  },
+  { 
+    "id": 189, 
+    "word": "attend", 
+    "translation": "atender",
+    "examples": [
+      "Many students will attend the workshop on improving their study skills.",
+      "She decided to attend the concert with her friends.",
+      "It is important to attend all the meetings to stay updated on the project."
+    ],
+  },
+  { 
+    "id": 190, 
+    "word": "attention", 
+    "translation": "atenção",
+    "examples": [
+      "The teacher raised her voice to get the students' attention during the lesson.",
+      "It is important to pay attention to the details when completing a project.",
+      "The advertisement was designed to grab the attention of potential customers."
+    ],
+  },
+  { 
+    "id": 191, 
+    "word": "attitude", 
+    "translation": "atitude",
+    "examples": [
+      "Her positive attitude towards challenges helped her succeed in her career.",
+      "The team's attitude during the game was inspiring, as they never gave up.",
+      "It is important to have a good attitude when working in a team environment."
+    ],
+  },
+  { 
+    "id": 192, 
+    "word": "attract", 
+    "translation": "atrair",
+    "examples": [
+      "The bright colors of the flowers attract many bees and butterflies to the garden.",
+      "She wears a stunning dress to attract attention at the party.",
+      "The new marketing campaign aims to attract more customers to the store."
+    ],
+  },
   { "id": 193, "word": "attraction", "translation": "atração" },
   { "id": 194, "word": "attractive", "translation": "atraente" },
   { "id": 195, "word": "audience", "translation": "público" },
