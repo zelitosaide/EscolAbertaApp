@@ -1,8 +1,9 @@
 import EAButton from "@/components/button";
 import EACard from "@/components/card";
+import EAItem from "@/components/item";
 import { Word, loadDifficultWords, resetDifficultWords } from "@/utils/spacedRepetition";
 import { useEffect, useState } from "react";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { Alert, ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function FilteredList() {
   const [difficultWords, setDifficultWords] = useState<Word[]>([]);
@@ -28,13 +29,24 @@ export default function FilteredList() {
       </View>
 
       <EACard index="C" title={`Total de Palavras DESCONHECIDAS: ${difficultWords.length}`} />
+
       {difficultWords.length > 0 ? (
         difficultWords.map(w => {
+          const text = `${w.id}. ${w.word.toUpperCase()} (${w.translation}) ${w.examples ? "😎": ""}`;
+          const examples = w.examples ? w.examples.map((ex, i, arr) => {
+            return `${i + 1}. ${ex}\n`;
+          }).join("") : "Não tem exemplos ainda 🥺";
+
+          console.log({ examples });
+
           return (
-            <View style={{ flexDirection: "row", gap: 5 }} key={w.id}>
-              <Text style={{ fontWeight: "900" }}>{w.id}{". "}{w.word.toUpperCase()}</Text>
-              <Text>({w.translation}) {w.examples && "😎"}</Text>
-            </View>
+            <EAItem 
+              key={w.id} 
+              text={text}
+              onPress={function() {
+                Alert.alert("Exemplos", examples);
+              }}
+            />
           );
         })
       ) : null}
