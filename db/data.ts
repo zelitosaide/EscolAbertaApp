@@ -938,17 +938,111 @@ const words = [
       "The new marketing campaign aims to attract more customers to the store."
     ],
   },
-  { "id": 193, "word": "attraction", "translation": "atração" },
-  { "id": 194, "word": "attractive", "translation": "atraente" },
-  { "id": 195, "word": "audience", "translation": "público" },
-  { "id": 196, "word": "August", "translation": "agosto" },
-  { "id": 197, "word": "aunt", "translation": "tia" },
-  { "id": 198, "word": "author", "translation": "autor" },
-  { "id": 199, "word": "authority", "translation": "autoridade" },
-  { "id": 200, "word": "autumn", "translation": "outono" },
-  { "id": 201, "word": "available", "translation": "disponível" },
-  { "id": 202, "word": "average", "translation": "média" },
-  { "id": 203, "word": "avoid", "translation": "evitar" },
+  { 
+    "id": 193, 
+    "word": "attraction", 
+    "translation": "atração",
+    "examples": [
+      "The amusement park is a popular attraction for families during summer vacation.",
+      "There is a strong attraction between the two magnets, making it hard to pull them apart.",
+      "Her passion and confidence are part of her natural attraction."
+    ],
+  },
+  { 
+    "id": 194, 
+    "word": "attractive", 
+    "translation": "atraente",
+    "examples": [
+      "Many people find the colorful design of the building very attractive.",
+      "She has an attractive personality that makes her easy to be around.",
+      "The job offer was attractive because of the salary and benefits it provided."
+    ],
+  },
+  { 
+    "id": 195, 
+    "word": "audience", 
+    "translation": "público",
+    "examples": [
+      "The speaker captivated the audience with her inspiring story.",
+      "The movie received positive feedback from the audience after the screening.",
+      "It is important to understand your audience when creating a presentation."
+    ],
+  },
+  { 
+    "id": 196, 
+    "word": "August", 
+    "translation": "agosto",
+  },
+  { 
+    "id": 197, 
+    "word": "aunt", 
+    "translation": "tia",
+    "examples": [
+      "My aunt always brings delicious cookies when she visits.",
+      "She has a wonderful relationship with her aunt, who has always supported her dreams.",
+      "We are going to my aunt's house for dinner this weekend."
+    ],
+  },
+  { 
+    "id": 198, 
+    "word": "author", 
+    "translation": "autor",
+    "examples": [
+      "The author of the best-selling novel was invited to speak at the literary festival.",
+      "Many readers admired the author for her unique writing style and engaging stories.",
+      "He decided to become an author after realizing his passion for storytelling."
+    ],
+  },
+  { 
+    "id": 199, 
+    "word": "authority", 
+    "translation": "autoridade",
+    "examples": [
+      "The teacher has the authority to enforce rules in the classroom.",
+      "The government has the authority to implement new laws for the benefit of the public.",
+      "It is important to respect the authority of those in charge, especially in a workplace."
+    ],
+  },
+  { 
+    "id": 200, 
+    "word": "autumn", 
+    "translation": "outono",
+    "examples": [
+      "The leaves turn vibrant shades of red and orange during autumn, creating a beautiful landscape.",
+      "Many people enjoy going apple picking in autumn when the fruit is ripe and ready for harvest.",
+      "Autumn is a perfect time for cozy sweaters and warm drinks as the weather starts to cool down."
+    ],
+  },
+  { 
+    "id": 201, 
+    "word": "available", 
+    "translation": "disponível",
+    "examples": [
+      "The new smartphone will be available in stores next week.",
+      "Please let me know if you are available for a meeting tomorrow.",
+      "The hotel has several rooms available for the weekend."
+    ],
+  },
+  { 
+    "id": 202, 
+    "word": "average", 
+    "translation": "média",
+    "examples": [
+      "The average temperature in July is usually quite high.",
+      "Many students aim to achieve an average grade of B or higher in their courses.",
+      "On average, people spend about 2 hours a day on social media."
+    ],
+  },
+  { 
+    "id": 203, 
+    "word": "avoid", 
+    "translation": "evitar",
+    "examples": [
+      "To maintain a healthy lifestyle, it is important to avoid junk food and sugary drinks.",
+      "She tried to avoid the conflicts by staying calm and listening to everyone's opinions.",
+      "The teacher advised students to avoid procrastination and start their assignments early."
+    ],
+  },
   { "id": 204, "word": "award", "translation": "prêmio" },
   { "id": 205, "word": "aware", "translation": "ciente" },
   { "id": 206, "word": "away", "translation": "longe" },
