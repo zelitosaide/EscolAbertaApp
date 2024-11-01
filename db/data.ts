@@ -1043,17 +1043,116 @@ const words = [
       "The teacher advised students to avoid procrastination and start their assignments early."
     ],
   },
-  { "id": 204, "word": "award", "translation": "prêmio" },
-  { "id": 205, "word": "aware", "translation": "ciente" },
-  { "id": 206, "word": "away", "translation": "longe" },
-  { "id": 207, "word": "awful", "translation": "horrível" },
-  { "id": 208, "word": "baby", "translation": "bebê" },
-  { "id": 209, "word": "back", "translation": "costas" },
-  { "id": 210, "word": "background", "translation": "fundo." },
-  { "id": 211, "word": "backwards", "translation": "para trás" },
-  { "id": 212, "word": "bacteria", "translation": "bactérias" },
-  { "id": 213, "word": "bad", "translation": "ruim" },
-  { "id": 214, "word": "badly", "translation": "mal" },
+  { 
+    "id": 204, 
+    "word": "award", 
+    "translation": "prêmio",
+    "examples": [
+      "She received an award for her outstanding performance in the competition.",
+      "The movie won an award for best cinematography.",
+      "The school gives an award to students who excel in academics."
+    ],
+  },
+  { 
+    "id": 205, 
+    "word": "aware", 
+    "translation": "ciente",
+    "examples": [
+      "It is important to be aware of your surroundings when working in a busy area.",
+      "She was not aware that the meeting had been rescheduled.",
+      "The teacher made the students aware of the upcoming exam dates."
+    ],
+  },
+  { 
+    "id": 206, 
+    "word": "away", 
+    "translation": "longe",
+    "examples": [
+      "She lives away from the city, enjoying the peace and quiet of the countryside.",
+      "Please put your phone away during the movie to avoid distractions.",
+      "He walks away from the argument, preferring to stay calm."
+    ],
+  },
+  { 
+    "id": 207, 
+    "word": "awful", 
+    "translation": "horrível",
+    "examples": [
+      "The food at the restaurant was awful and I couldn't finish my meal.",
+      "She had an awful headache and needed to lie down.",
+      "The weather was awful with heavy rain and strong winds all day."
+    ],
+  },
+  { 
+    "id": 208, 
+    "word": "baby", 
+    "translation": "bebê",
+    "examples": [
+      "A baby needs a lot of attention and care in its first year.",
+      "She loves to dress her baby in cute outfits for family photos.",
+      "The sound of a baby laughing can bring joy to anyone around."
+    ],
+  },
+  { 
+    "id": 209, 
+    "word": "back", 
+    "translation": "costas",
+    "examples": [
+      "She hurt her back while lifting heavy boxes.",
+      "He decided to go back to school to finish his degree.",
+      "The cat jumped onto my lap and curled up on my back."
+    ],
+  },
+  { 
+    "id": 210, 
+    "word": "background", 
+    "translation": "fundo.",
+    "examples": [
+      "The background of the photo is a beautiful sunset over the ocean.",
+      "She has a background in graphic design, which helps her create stunning visuals.",
+      "In the movie, the background music enhances the emotional scenes beautifully."
+    ],
+  },
+  { 
+    "id": 211, 
+    "word": "backwards", 
+    "translation": "para trás",
+    "examples": [
+      "When she fell, she tumbled backwards and landed on the grass.",
+      "The children were playing a game where they had to walk backwards.",
+      "In some cultures, reading is done from right to left, which can feel backwards to others."
+    ],
+  },
+  { 
+    "id": 212, 
+    "word": "bacteria", 
+    "translation": "bactérias",
+    "examples": [
+      "Bacteria play a crucial role in breaking down organic matter in the environment.",
+      "It is important to wash your hands regularly to prevent the spread of harmful bacteria.",
+      "Some types of bacteria are used in the production of yogurts and cheese."
+    ],
+  },
+  { 
+    "id": 213, 
+    "word": "bad", 
+    "translation": "ruim",
+    "examples": [
+      "The movie received bad reviews from critics and audiences alike.",
+      "It was a bad idea to go out in the storm without an umbrella.",
+      "He felt bad about missing his friend's birthday party."
+    ],
+  },
+  { 
+    "id": 214, 
+    "word": "badly", 
+    "translation": "mal",
+    "examples": [
+      "She performed badly on the test and was disappointed with her score.",
+      "He was badly injured in the accident and required immediate medical attention.",
+      "The project was badly managed, leading to delays and budget overruns."
+    ],
+  },
   { "id": 215, "word": "bag", "translation": "sacola" },
   { "id": 216, "word": "bake", "translation": "assar" },
   { "id": 217, "word": "balance", "translation": "equilíbrio" },
