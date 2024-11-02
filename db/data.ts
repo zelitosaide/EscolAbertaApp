@@ -1153,14 +1153,77 @@ const words = [
       "The project was badly managed, leading to delays and budget overruns."
     ],
   },
-  { "id": 215, "word": "bag", "translation": "sacola" },
-  { "id": 216, "word": "bake", "translation": "assar" },
-  { "id": 217, "word": "balance", "translation": "equilíbrio" },
-  { "id": 218, "word": "ball", "translation": "bola" },
-  { "id": 219, "word": "ban", "translation": "proibição" },
+  { 
+    "id": 215, 
+    "word": "bag", 
+    "translation": "sacola",
+    "examples": [
+      "She packed her bag with snacks and water for the hike.",
+      "He bought a new laptop bag for work.",
+      "The shopping bag tore open and all the groceries fell out."
+    ],
+  },
+  { 
+    "id": 216, 
+    "word": "bake", 
+    "translation": "assar",
+    "examples": [
+      "She loves to bake cookies on the weekends.",
+      "They decided to bake a cake for the birthday party.",
+      "He learned how to bake bread from his grandmother."
+    ],
+  },
+  { 
+    "id": 217, 
+    "word": "balance", 
+    "translation": "equilíbrio",
+    "examples": [
+      "It is important to maintain a balance between work and personal life.",
+      "She struggled to find the right balance in her diet.",
+      "The tightrope walker had excellent balance as he moved across the rope."
+    ],
+  },
+  { 
+    "id": 218, 
+    "word": "ball", 
+    "translation": "bola",
+    "examples": [
+      "The children played with a colorful ball in the park.",
+      "She tossed the ball to her dog, who happily chased after it.",
+      "At the party, everyone danced to the music as if they were at a grand ball."
+    ],
+  },
+  { 
+    "id": 219, 
+    "word": "ban", 
+    "translation": "proibição",
+    "examples": [
+      "The school decided to impose a ban on cell phones during class.",
+      "Many countries have a ban on single-use plastics to protect the environment.",
+      "The government announced a temporary ban on outdoor gatherings due to health concerns."
+    ],
+  },
   { "id": 220, "word": "banana", "translation": "banana" },
-  { "id": 221, "word": "band", "translation": "banda" },
-  { "id": 222, "word": "bank (money)", "translation": "banco" },
+  { 
+    "id": 221, 
+    "word": "band", 
+    "translation": "banda",
+    "examples": [
+      "The band played lively music at the festival and everyone danced along.",
+      "She bought a new wristband to show her support for the charity.",
+      "He was excited to join a rock band with his friends and perform at local events."
+    ],
+  },
+  { 
+    "id": 222, 
+    "word": "bank (money)", 
+    "translation": "banco",
+    "examples": [
+      "She went to the bank to deposit her paycheck.",
+      "He took out a loan from the bank to buy a new car.",
+      "The bank offers various services, including savings accounts and loans."
+    ],
+  },
   { "id": 223, "word": "bank (river)", "translation": "margem" },
   { "id": 224, "word": "bar", "translation": "bar" },
   { "id": 225, "word": "barrier", "translation": "barreira" },
