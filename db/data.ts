@@ -1224,14 +1224,77 @@ const words = [
       "The bank offers various services, including savings accounts and loans."
     ],
   },
-  { "id": 223, "word": "bank (river)", "translation": "margem" },
-  { "id": 224, "word": "bar", "translation": "bar" },
-  { "id": 225, "word": "barrier", "translation": "barreira" },
-  { "id": 226, "word": "base", "translation": "base" },
+  { 
+    "id": 223, 
+    "word": "bank (river)", 
+    "translation": "margem",
+    "examples": [
+      "They sat on the river bank and enjoyed the sunset.",
+      "The flood caused the water to overflow the river bank.",
+      "Ducks were resting on the grassy bank of the lake."
+    ],
+  },
+  { 
+    "id": 224, 
+    "word": "bar",
+    "translation": "bar",
+    "examples": [
+      "They went to the bar after work to relax and chat.",
+      "He lifted a heavy bar at the gym as part of his workout.",
+      "She passed the bar exam and became a lawyer."
+    ],
+  },
+  { 
+    "id": 225,
+    "word": "barrier",
+    "translation": "barreira",
+    "examples": [
+      "The fence acted as a barrier to keep the animals in the yard.",
+      "Language can be a barrier to communication in multicultural setting.",
+      "They built a barrier to prevent flooding during the heavy rains."
+    ],
+  },
+  { 
+    "id": 226, 
+    "word": "base", 
+    "translation": "base",
+    "examples": [
+      "One of the players slipped and fell on the base during the baseball game.",
+      "The scientist used a solid base to conduct the chemical experiments.",
+      "She decided to base her decision on the data gathered from the survey."
+    ],
+  },
   { "id": 227, "word": "baseball", "translation": "beisebol" },
-  { "id": 228, "word": "based", "translation": "baseado" },
-  { "id": 229, "word": "basic", "translation": "básico" },
-  { "id": 230, "word": "basically", "translation": "basicamente" },
+  { 
+    "id": 228, 
+    "word": "based", 
+    "translation": "baseado",
+    "examples": [
+      "The movie is based on a true story that took place in the early nineteen hundreds(1900s).",
+      "She based her research on the findings of previous studies.",
+      "The company is based in New York, but has offices all over the world."
+    ],
+  },
+  { 
+    "id": 229, 
+    "word": "basic", 
+    "translation": "básico",
+    "examples": [
+      "The basic principles of math are essential for understanding more complex concepts.",
+      "Everyone should know basic first aid in case of an emergency.",
+      "She decided to take a basic cooking class to improve her skills in the kitchen."
+    ],
+  },
+  { 
+    "id": 230, 
+    "word": "basically", 
+    "translation": "basicamente",
+    "examples": [
+      "The teacher explained that basically the test would cover the entire semester's material.",
+      "In the meeting, he stated that basically they needed to increase their sales to stay afloat.",
+      "She said basically it is about finding a balance between work and personal life."
+    ],
+  },
   { "id": 231, "word": "basis", "translation": "base." },
   { "id": 232, "word": "basketball", "translation": "basquete" },
   { "id": 233, "word": "bath", "translation": "banho" },
